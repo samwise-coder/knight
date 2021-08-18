@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class DemoApplication {
     @RequestMapping("/index")
-public String index(){
+    public String index(){
         return "this is frist springboot project!";
     }
     public static void main(String[] args) {
