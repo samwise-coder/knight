@@ -18,8 +18,6 @@ public class CrossFliter {
         //添加映射路径
         UrlBasedCorsConfigurationSource configSource=new UrlBasedCorsConfigurationSource();
         configSource.registerCorsConfiguration("/**",config);
-        //返回新的CorsFilter
-        return new CorsFilter(configSource);
     }
 
 }
